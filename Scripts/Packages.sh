@@ -1,5 +1,9 @@
 #!/bin/bash
 
+#移除冲突mosdns插件
+rm -rf feeds/packages/net/v2ray-geodata
+rm -rf feeds/packages/net/mosdns
+
 #安装和更新软件包
 UPDATE_PACKAGE() {
 	local PKG_NAME=$1
