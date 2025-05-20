@@ -9,9 +9,6 @@ CONFIG_PACKAGE_luci-app-wolplus=y
 CONFIG_PACKAGE_luci-app-gecoosac=y
 CONFIG_PACKAGE_luci-app-tailscale=y
 CONFIG_PACKAGE_luci-app-autoreboot=y
-#添加CPE插件
-CONFIG_PACKAGE_luci-app-qmodem=y
-CONFIG_PACKAGE_luci-app-qmodem-sms=y
 #删除插件
 CONFIG_PACKAGE_luci-app-wol=n
 CONFIG_PACKAGE_luci-app-samba4=n
